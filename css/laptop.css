@@ -1,6 +1,12 @@
 @media(max-width:1100px){
-    .filter-section {
+    .container {
         padding-top: 32px;
         padding-inline: 50px;
+    }
+    .card-section{
+        grid-template-columns: 1fr 1fr;
+    }
+    .none{
+        display: none;
     }
 }
