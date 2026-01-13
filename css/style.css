@@ -8,6 +8,7 @@
     --border-radius-btn1: 8px;
     --border-radius-btn2: 16px;
     --border-radius-btn3: 30px;
+    
 
 }
 
@@ -128,4 +129,29 @@ vertical-align: middle;
     width: 100%;
     height: 312px;
     object-fit: cover;
+}
+
+/* button  */
+
+.section3{
+    width: 179px;
+height: 40px;
+background-color: var(--primary-Color-sec);
+color: var(--Secondary-Color-sec);
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0%;
+border-radius: var(--border-radius-btn3);
+border: none;
+
+
+}
+
+.section3-3{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 70px;
 }
